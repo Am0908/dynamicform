@@ -65,7 +65,9 @@ p
   background: transparent;
 }
 
-#issuedplace, #expyear, #issuedyear, #dobproof, #addressproof, #currentplace{color: #777}
+#issuedplace, #expyear, #issuedyear, #dobproof, #addressproof, #currentplace
+{color: #777}
+
 .next{
   background-color: #FF7272;
   border-radius: 5px;
