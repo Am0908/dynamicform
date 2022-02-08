@@ -22,7 +22,7 @@ h2,h1{
   text-align: center;
   margin-bottom: 20px;
 }
-h2,h4,h6
+h2,h4,h5
 {
   color: #777;
 }
@@ -64,6 +64,8 @@ p
   outline: none;
   background: transparent;
 }
+
+#issuedplace, #expyear, #issuedyear, #dobproof, #addressproof, #currentplace{color: #777}
 .next{
   background-color: #FF7272;
   border-radius: 5px;
