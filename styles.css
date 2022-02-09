@@ -25,15 +25,20 @@ h1
   margin-top: 5px;
   color: #423F3E;
 }
-
+h1
+{
+  font-size: 35px;
+  margin-top: 5px;
+  color: #423F3E;
+}
 h2,h1{
   text-align: center;
   margin-bottom: 17px;
 }
-h2,h4,h5
+h2,h3,h5,h4
 {
   color: #777;
-  
+
 }
 p
 {
@@ -50,9 +55,15 @@ p
   text-align: center;
   margin-left: 12%;
 }
+
+#form1{
+  margin-top: 20px;
+}
+
 #form2
 {
   left: 600px;
+  margin-top: 20px
 }
 #form3
 {
