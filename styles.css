@@ -16,15 +16,24 @@ body{
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-  line-height: 25px
+  line-height: 30px
 }
+
+h1
+{
+  font-size: 35px;
+  margin-top: 5px;
+  color: #423F3E;
+}
+
 h2,h1{
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
 }
 h2,h4,h5
 {
   color: #777;
+  
 }
 p
 {
@@ -34,12 +43,12 @@ p
 }
 
 .container form {
-  width: 340px;
+  width: 460px;
   position: absolute;
   transition: 0.5s;
-  line-height: 30px;
+  line-height: 35px;
   text-align: center;
-  margin-left: 22%;
+  margin-left: 12%;
 }
 #form2
 {
@@ -53,7 +62,10 @@ p
 {
   left: 600px;
 }
-
+h2
+{
+  font-size: 30px;
+}
 #details{
   width: 317px;
   padding: 10px 5px;
@@ -63,10 +75,19 @@ p
   border-radius: 5px;
   outline: none;
   background: transparent;
+  color: #777;
+  font-size: 15px;
 }
 
 #issuedplace, #expyear, #issuedyear, #dobproof, #addressproof, #currentplace
-{color: #777}
+{color: #777; font-size: 15px;}
+
+#fline{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #777;
+}
 
 .next{
   background-color: #FF7272;
@@ -105,7 +126,7 @@ p
   padding: 5px 5px 5px 5px;
   border: solid #ffffff 2px;
   text-decoration: none;
-  width: auto;
+  width: 300px;
   text-align: left;
 }
 
@@ -125,7 +146,7 @@ p
 {
   width: 460px;
   height: 5px;
-  margin: 300px auto;
+  margin: 330px auto;
   display: flex;
   align-items: center;
   box-shadow: 0 -1px 5px -1px #000;
